@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Ozarko | Developer</title>
+    <!-- Підключення TailwindCSS для стилів -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Підключення FontAwesome для іконок -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-200">
+    
+    <!-- Декоративний фон -->
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div class="absolute -top-[30%] -right-[10%] w-[70%] h-[70%] rounded-full bg-gradient-to-br from-blue-200 to-indigo-50 opacity-40 blur-3xl"></div>
+        <div class="absolute -bottom-[20%] -left-[10%] w-[60%] h-[60%] rounded-full bg-gradient-to-tr from-slate-200 to-blue-100 opacity-40 blur-3xl"></div>
+    </div>
+
+    <div class="relative z-10 min-h-screen flex flex-col items-center justify-center p-4 sm:p-6">
+        
+        <!-- Головна картка -->
+        <div class="w-full max-w-2xl bg-white/70 backdrop-blur-xl rounded-2xl shadow-xl border border-white/60 overflow-hidden transition-all hover:shadow-2xl duration-300">
+            
+            <!-- Шапка профілю -->
+            <div class="bg-gradient-to-r from-slate-900 to-slate-800 p-8 text-center sm:text-left sm:flex sm:items-center sm:justify-between">
+                <div>
+                    <h1 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">Andrew Ozarko</h1>
+                    <p class="text-slate-300 mt-2 font-medium">Independent Software Developer / Individual Entrepreneur</p>
+                </div>
+                <div class="hidden sm:flex h-16 w-16 bg-slate-700/50 rounded-xl items-center justify-center border border-slate-600 shadow-inner">
+                    <i class="fa-solid fa-code text-2xl text-blue-400"></i>
+                </div>
+            </div>
+
+            <!-- Основний контент -->
+            <div class="p-8 space-y-8">
+                
+                <!-- Інформація -->
+                <div>
+                    <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">About / Company Info</h2>
+                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                        Official developer and support page. Dedicated to building robust backend architectures, scalable web services, and high-performance mobile applications.
+                    </p>
+                    <p class="text-sm text-slate-500 mt-3 flex items-center justify-center sm:justify-start gap-2">
+                        <i class="fa-solid fa-location-dot text-slate-400"></i> Stryi, Ukraine
+                    </p>
+                </div>
+
+                <!-- Контакти -->
+                <div>
+                    <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Contact & Support</h2>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <!-- Кнопка Email -->
+                        <a href="mailto:andrewozarko@gmail.com" class="flex items-center justify-center gap-3 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-medium transition-colors w-full sm:w-auto shadow-md">
+                            <i class="fa-solid fa-envelope"></i>
+                            andrewozarko@gmail.com
+                        </a>
+                        <!-- Кнопка Telegram -->
+                        <a href="https://t.me/andrew_ozarko" target="_blank" class="flex items-center justify-center gap-3 bg-[#0088cc] hover:bg-[#0077b5] text-white px-6 py-3 rounded-lg font-medium transition-colors w-full sm:w-auto shadow-md">
+                            <i class="fa-brands fa-telegram text-lg"></i>
+                            @andrew_ozarko
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Юридичні посилання -->
+                <div class="pt-6 border-t border-slate-100 flex items-center justify-between">
+                    <a href="privacy.html" class="flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Privacy Policy
+                    </a>
+                    <span class="text-xs text-slate-400">&copy; 2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
